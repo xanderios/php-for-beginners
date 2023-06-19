@@ -1,5 +1,5 @@
 <?php
 
-$heading = "About";
-
-require "views/about.php";
+view("about", [
+  'heading' => "About"
+]);
